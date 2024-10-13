@@ -4,12 +4,13 @@
   <div style="color: #808080">
   ReciPI: Recipe-Sharing-Community
   </div></h1>
-  <h5><a href="">
+  <h5><a href="https://recipi-iota.vercel.app/">
   Live</a> </h5>
 </div>
+
 # Recipe Sharing Community
 
-The **Recipe Sharing Community** is a full-stack web application designed for cooking enthusiasts to share, discover, and organize recipes. This platform fosters social engagement and culinary knowledge sharing, providing users with features like recipe posting, interactive ingredient checklists, cooking timers, and premium membership options.
+The **ReciPI** is a full-stack web application designed for cooking enthusiasts to share, discover, and organize recipes. This platform fosters social engagement and culinary knowledge sharing, providing users with features like recipe posting, interactive ingredient checklists, cooking timers, and premium membership options.
 
 ## Table of Contents
 
