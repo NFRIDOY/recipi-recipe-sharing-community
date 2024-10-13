@@ -17,7 +17,7 @@
 }
 
 .primary-btn {
-  @apply bg-sky-500 text-white hover:bg-sky-400 hover:text-black hover:border-2 hover:border-sky-950;
+  @apply bg-[#832561] text-white hover:bg-sky-400 hover:text-black hover:border-2 hover:border-sky-950;
 }
 
 .primary-color {
