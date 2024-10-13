@@ -2,9 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+.primary-bg {
+  background-color: #832561;
+}
+.primary-text {
+  color: #832561;
+}
+
+.primary-btn {
+  @apply bg-sky-500 text-white hover:bg-sky-400 hover:text-black hover:border-2 hover:border-sky-950;
+}
+
+.primary-color {
+@apply bg-sky-500;
+/* #06b6d4 */
+}
+
+.primary-border {
+@apply bg-sky-500 rounded-lg ;
+
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #832561;
+  --foreground: #832561;
 }
 
 @media (prefers-color-scheme: dark) {
