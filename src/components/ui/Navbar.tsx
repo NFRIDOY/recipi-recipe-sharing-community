@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../../asset/logo/logo.png";
 import Link from "next/link";
 import Image from "next/image";
 import { FaRegUser } from "react-icons/fa";
+import { logo } from "@/utils/images/logo";
 
 const Navbar = () => {
     const menuItems = (

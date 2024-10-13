@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+<div align="center">
+  <h1>About The Project
+  <div style="color: #808080">
+  ReciPI: Recipe-Sharing-Community
+  </div></h1>
+  <h5><a href="">
+  Live</a> </h5>
+</div>
+# Recipe Sharing Community
 
-First, run the development server:
+The **Recipe Sharing Community** is a full-stack web application designed for cooking enthusiasts to share, discover, and organize recipes. This platform fosters social engagement and culinary knowledge sharing, providing users with features like recipe posting, interactive ingredient checklists, cooking timers, and premium membership options.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The Recipe Sharing Community provides users with a platform to:
+- Share, discover, and organize recipes.
+- Access interactive ingredient checklists and cooking timers.
+- Engage socially through comments, ratings, and following other users.
+- Access premium content through subscription plans.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+### 1. User Authentication & Authorization
+- **Registration**: Create an account with email, password, and profile details.
+- **Login & JWT-based Authentication**: Secure login using JSON Web Tokens (JWT).
+- **Password Recovery**: Password reset functionality via email.
+- **Profile Management**: Users can update their profile details, including name, picture, and bio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Recipe Management
+- **Recipe Creation**: Users can submit recipes with rich text formatting and images.
+- **Ingredient Checklist**: Interactive checklist for tracking ingredients.
+- **Cooking Timer**: Built-in timers for managing cooking durations.
+- **Recipe Editing & Deletion**: Users can edit or delete their recipes, while admins manage recipe publishing.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. Social Features
+- **Rating and Commenting**: Users can rate recipes and leave comments.
+- **Upvote & Downvote System**: Community-driven content ranking based on votes.
 
-## Deploy on Vercel
+### 4. Premium Membership
+- **Exclusive Content**: Premium members access exclusive recipes and an ad-free experience.
+- **Payment Integration**: Stripe/Aamarpay integration for secure online payments.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 5. Admin Dashboard
+- **User & Recipe Management**: Admins can manage users and recipes, including blocking/unblocking users.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 6. Responsive Design
+- **Mobile-Friendly**: Fully responsive UI for mobile, tablet, and desktop.
+
+## Technologies Used
+
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose)
+- **Authentication**: JWT (JSON Web Tokens)
+- **Payment Integration**: Stripe/Aamarpay
+- **Deployment**: Vercel for frontend, Heroku/Vercel for backend
+
+## Installation
+
+To set up the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone <url>
+   cd recipi-recipe-sharing-community
+   npm install
+
+   ```
